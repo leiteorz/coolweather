@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Weather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
         <entry key="..\:/Weather/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Weather/app/src/main/res/layout/choose_area.xml" value="0.176" />
         <entry key="..\:/Weather/app/src/main/res/xml/litepal.xml" value="0.25364583333333335" />
       </map>
     </option>
