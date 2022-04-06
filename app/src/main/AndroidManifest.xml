@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weather">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
         android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
@@ -22,8 +20,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".WeatherActivity"/>
-
+        <activity android:name=".WeatherActivity" />
+        <service
+            android:name=".service.AutoUpdateService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
